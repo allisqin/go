@@ -51,6 +51,83 @@
       <li><a href="/wildfest.html">Wild Fest</a></li>
       <li><a href="/neon.html">Neon style</a></li>
    </ol>
+   <h2>Забронировать</h2>
+   <form method="post" action="https://jsonplaceholder.typicode.com/posts">
+      <fieldset>
+         <label>
+            <input type="radio" name="halls" value="80's vibes">80's vibes
+         </label>
+         <label>
+            <input type="radio" name="halls" value="Star Wars">Star Wars
+         </label>
+         <label>
+            <input type="radio" name="halls" value="Wild Fest">Wild Fest
+         </label>
+         <label>
+            <input type="radio" name="halls" value="Neon style">Neon style
+         </label>
+      </fieldset>
+      <br>
+      <fieldset>
+         <legend>Собери набор развлечений</legend>
+         <fieldset>
+            <legend>Приставка</legend>
+            <label>
+               <input type="radio" name="console" value="PlayStation">PlayStation
+            </label>
+            <label>
+               <input type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive
+            </label>
+            <label>
+               <input type="radio" name="console" value="X-box One S">X-box One S
+            </label>
+            <label>
+               <input type="radio" name="console" value="Dendy">Dendy
+            </label>
+         </fieldset>
+         <fieldset>
+            <legend>Настольные игры</legend>
+            <label>
+               <input type="checkbox" name="boardgame" value="Jenga">Jenga
+            </label>
+            <label>
+               <input type="checkbox" name="boardgame" value="Monopoly">Monopoly
+            </label>
+            <label>
+               <input type="checkbox" name="boardgame" value="Манчкин">Манчкин
+            </label>
+            <label>
+               <input type="checkbox" name="boardgame" value="Alias">Alias
+            </label>
+         </fieldset>
+         <fieldset>
+            <legend>Дополнительно</legend>
+            <label>
+               <input type="checkbox" name="boardgame">Караоке
+            </label>
+            <label>
+               <input type="checkbox" name="boardgame">VR
+            </label>
+         </fieldset>
+      </fieldset>
+      <br>
+      <fieldset>
+         <legend>Выбери дату и время</legend>
+         <label>Дата* <input type="date" name="date" required></label>
+         <label>Время* <input type="time" name="time" required></label>
+         <br>
+         <label>Количество человек * <input type="number" name="kol" required></label>
+         <br>
+         <label>Имя* <input type="text" name="name" required></label>
+         <br>
+         <label>Фамилия* <input type="text" name="lastname" required></label>
+         <br>
+         <label>Номер телефона* <input type="tel" name="phone" required></label>
+         <br>
+         <label><input type="checkbox" name="age"> Я старше 18 лет</label>
+      </fieldset>
+      <button type="submit">Забронировать</button> <label><input type="checkbox" name="accept" required> Согласен на обработку данных</label>
+   </form>
    <h2 id="about">О нас</h2>
    <p>Для наших гостей мы создали <i>концептульно новое игровое простанство виртуальной реальности</i> в центральной части города.</p>
    <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
