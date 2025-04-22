@@ -1,4 +1,5 @@
 #faq li {
+   position: relative;
    list-style-type: none;
    background-color: #fff;
    color: #1C1A1A;
@@ -6,6 +7,7 @@
    font-size: 24px;
    padding: 30px 70px;
    margin-bottom: 20px;
+   
 }
 
 #faq li:nth-child(even) {
@@ -14,18 +16,26 @@
 
 #faq li::after {
    content: "";
+   position: absolute;
+   right: 72px;
+   top: 50%;
+   transform: translateY(-50%);
    display: inline-block;
-   width: 20px;
-   height: 20px;
-   background-image: url(./assets/images/open-purple.svg);
+   width: 47px;
+   height: 47px;
+   background-image: url(../assets/images/open-purple.svg);
    background-size: contain;
 }
 
 #faq li:nth-child(even)::after {
    content: "";
+   position: absolute;
+   right: 72px;
+   top: 50%;
+   transform: translateY(-50%);
    display: inline-block;
-   width: 20px;
-   height: 20px;
-   background-image: url(./assets/images/open.svg);
+   width: 47px;
+   height: 47px;
+   background-image: url(../assets/images/open.svg);
    background-size: contain;
 }
