@@ -25,6 +25,7 @@
    height: 47px;
    background-image: url(../assets/images/open-purple.svg);
    background-size: contain;
+   cursor: pointer;
 }
 
 #faq li:nth-child(even)::after {
@@ -38,4 +39,5 @@
    height: 47px;
    background-image: url(../assets/images/open.svg);
    background-size: contain;
+   cursor: pointer;
 }
