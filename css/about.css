@@ -1,0 +1,39 @@
+.about__quote {
+   position: relative;
+   font-size: 44px;
+   line-height: 50px;
+   text-align: left;
+   text-transform: uppercase;
+}
+
+.about__quote::before {
+   position: absolute;
+   top: -5px;
+   left: -39px;
+   content: "“";
+   font-size: 44px;
+   font-weight: 900;
+   color: #6c0287;
+}
+
+.about__quote::after {
+   position: absolute;
+   top: 48px;
+   right: 661px;
+   content: "”";
+   font-size: 44px;
+   font-weight: 900;
+   color: #6c0287;
+}
+
+.align-right {
+   display: flex;
+   justify-content: end;
+}
+
+.about__quote-author {
+   display: flex;
+   justify-content: end;
+   gap: 30px;
+   width: 279px;
+}

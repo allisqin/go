@@ -1,0 +1,21 @@
+.banner {
+   height: 823px;
+   background: url("../assets/images/bg/banner.png") right bottom / contain no-repeat;
+   margin-bottom: 100px;
+}
+
+.banner__title {
+   font-size: 150px;
+   font-weight: 900;
+   line-height: 100%;
+   letter-spacing: -18px;
+}
+
+.banner__subtitle {
+   margin-top: -100px;
+   margin-left: 100px;
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 50px;
+   letter-spacing: 0px;
+}

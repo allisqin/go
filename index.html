@@ -11,25 +11,35 @@
   </head>
   <body>
     <div class="container">
-      <!-- <header>
-        <img src="./assets/images/logo.svg" alt="GO" />
-        <h1>Меню</h1>
-        <nav>
-          <ul>
-            <li><a href="#halls">Залы</a></li>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#booking">Бронь</a></li>
-            <li><a href="#reviews">Отзывы</a></li>
-            <li><a href="#contacts">Контакты</a></li>
+      <header class="header">
+        <img class="header__logo" src="./assets/images/logo.svg" alt="GO" />
+        <h1 class="header__title">Меню</h1>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#halls" class="navigation__link">Залы</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about" class="navigation__link">О нас</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#booking" class="navigation__link">Бронь</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#reviews" class="navigation__link">Отзывы</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contacts" class="navigation__link">Контакты</a>
+            </li>
           </ul>
         </nav>
-      </header> -->
+      </header>
       <section class="banner">
         <h1 class="banner__title">GAME OVER</h1>
         <p class="banner__subtitle">Новый формат игр и отдыха</p>
       </section>
-      <section id="halls">
-        <h2 class="title">Наши залы</h2>
+      <section id="halls" class="halls">
+        <h2 class="halls__title title">Наши залы</h2>
         <ol class="halls__list">
           <li id="vibes80" class="halls__item">
             <a class="halls__link" href="/80vibes.html">80's vibes</a>
@@ -45,9 +55,13 @@
           </li>
         </ol>
       </section>
-      <section id="booking">
-        <h2 class="title">Забронировать</h2>
-        <form method="post" action="https://jsonplaceholder.typicode.com/posts">
+      <section id="booking" class="boocking">
+        <h2 class="boocking__title title">Забронировать</h2>
+        <form
+          method="post"
+          action="https://jsonplaceholder.typicode.com/posts"
+          class="boocking__form"
+        >
           <fieldset>
             <label>
               <input type="radio" name="halls" value="80's vibes" />80's vibes
@@ -147,38 +161,38 @@
           >
         </form>
       </section>
-      <section id="about">
-        <h2 class="title">О нас</h2>
-        <p>
+      <section id="about" class="about">
+        <h2 class="about__title title">О нас</h2>
+        <p class="about__text">
           Для наших гостей мы создали концептульно новое игровое простанство
           виртуальной реальности в центральной части города.
         </p>
-        <p>
+        <p class="about__text">
           Каждый день мы стараемся создавать для вас самую лучшую игровую
           атмосферу и радовать Вас топовыми игровыми разработками со всего мира.
         </p>
-        <blockquote>
+        <blockquote class="about__quote">
           <p><strong>GAME OVER</strong> - это место незабываемых приключений</p>
         </blockquote>
         <div class="align-right">
-          <cite>
+          <cite class="about__quote-author">
             <img src="assets/images/about/boss.png" alt="Boss" />Аркадий
             Абакшин, создатель игровой территории GAME OVER
           </cite>
         </div>
       </section>
-      <section id="faq">
-        <h2 class="title">Частые вопросы</h2>
-        <ul>
-          <li>Можно ли забронировать комнату онлайн?</li>
-          <li>Могут ли мне вернуть деньги за бронь?</li>
-          <li>Какая комната самая популярная?</li>
-          <li>Как получить VIP карту?</li>
-          <li>Какая комната самая популярная?</li>
+      <section id="faq" class="faq">
+        <h2 class="faq__title title">Частые вопросы</h2>
+        <ul class="faq__list">
+          <li class="class__item">Можно ли забронировать комнату онлайн?</li>
+          <li class="class__item">Могут ли мне вернуть деньги за бронь?</li>
+          <li class="class__item">Какая комната самая популярная?</li>
+          <li class="class__item">Как получить VIP карту?</li>
+          <li class="class__item">Какая комната самая популярная?</li>
         </ul>
       </section>
-      <footer>
-        <h2 id="contacts" class="title">Контакты</h2>
+      <footer class="footer">
+        <h2 id="contacts" class="contacts__title title">Контакты</h2>
         <p class="contacts__item contacts__item-location">
           г.Москва <br />ул Аквамарина, 16
         </p>
@@ -192,7 +206,7 @@
           >GameOver@gmail.com</a
         >
         <div class="social">
-          <a class="social__Link" href="https://vk.com"
+          <a class="social__link" href="https://vk.com"
             ><svg
               width="50"
               height="50"
@@ -205,7 +219,7 @@
               />
             </svg>
           </a>
-          <a class="social__Link" href="https://web.telegram.org/k/">
+          <a class="social__link" href="https://web.telegram.org/k/">
             <svg
               width="48"
               height="48"
@@ -219,7 +233,7 @@
             </svg>
           </a>
           <a
-            class="social__Link"
+            class="social__link"
             href="https://ru.pinterest.com/?ysclid=mb6spg7wa9976147385"
             target="_blank"
           >
@@ -236,7 +250,7 @@
             </svg>
           </a>
           <a
-            class="social__Link"
+            class="social__link"
             href="https://stumbleupon.com/"
             target="_blank"
           >

@@ -1,0 +1,35 @@
+.halls__item {
+   display: flex;
+   width: 100%;
+   height: 710px;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 60px;
+}
+
+.halls__link {
+   font-size: 70px;
+   font-weight: 700;
+   line-height: 80px;
+   color: #fff;
+}
+
+.halls__link:hover {
+   color: #8c8787;
+}
+
+#vibes80 {
+   background: url("../assets/images/bg/halls/80s.jpg") center center / cover no-repeat;
+}
+
+#starwars {
+   background: url("../assets/images/bg/halls/starwars.jpg") center center / cover no-repeat;
+}
+
+#wildfest {
+   background: url("../assets/images/bg/halls/wildwest.jpg") center center / cover no-repeat;
+}
+
+#neon {
+   background: url("../assets/images/bg/halls/neon.jpg") center center / cover no-repeat;
+}
