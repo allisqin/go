@@ -1,4 +1,4 @@
-#faq li {
+.faq__item {
    width: 100%;
    position: relative;
    list-style-type: none;
@@ -11,11 +11,11 @@
    
 }
 
-#faq li:nth-child(even) {
+.faq__item:nth-child(even) {
    background-color:#440F51;
 }
 
-#faq li::after {
+.faq__item::after {
    content: "";
    position: absolute;
    right: 72px;
@@ -29,7 +29,7 @@
    cursor: pointer;
 }
 
-#faq li:nth-child(even)::after {
+.faq__item:nth-child(even)::after {
    content: "";
    position: absolute;
    right: 72px;

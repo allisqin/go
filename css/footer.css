@@ -1,4 +1,4 @@
-.contacts__item {
+.footer__item {
    display: flex;
    align-items: center;
    gap: 30px;
@@ -7,7 +7,7 @@
    color: #fff;
 }
 
-.contacts__item-location::before {
+.footer__item-location::before {
    content: "";
    display: inline-block;
    vertical-align: baseline;
@@ -17,7 +17,7 @@
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.contacts__item-phone::before {
+.footer__item-phone::before {
    content: "";
    display: inline-block;
    vertical-align: baseline;
@@ -27,7 +27,7 @@
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.contacts__item-mail::before {
+.footer__item-mail::before {
    content: "";
    display: inline-block;
    vertical-align: baseline;
