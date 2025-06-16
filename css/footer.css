@@ -1,3 +1,7 @@
+.footer {
+   padding-bottom: 101px;
+}
+
 .footer__item {
    display: flex;
    align-items: center;
