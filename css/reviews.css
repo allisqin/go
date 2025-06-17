@@ -1,0 +1,18 @@
+.reviews {
+   padding: 100px 0;
+}
+
+.reviews__wrapper {
+   padding: 0 100px;
+}
+
+.reviews__item {
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+
+.reviews__item-img {
+   text-align: center;
+}
