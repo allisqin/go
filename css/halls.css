@@ -1,7 +1,11 @@
+.halls {
+   margin-bottom: 60px;
+}
+
 .halls__list {
-   width: 100%;
+   /* width: 100%; */
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
    gap: 20px;
 }
@@ -9,10 +13,9 @@
 .halls__item {
    display: flex;
    width: 49%;
-   height: 710px;
+   height: 349px;
    justify-content: center;
    align-items: center;
-   /* margin-bottom: 60px; */
 }
 
 .halls__link {

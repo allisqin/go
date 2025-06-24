@@ -1,3 +1,16 @@
+.about {
+   margin-bottom: 60px;
+}
+
+.about__wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.about__image {
+   margin-right: 80px;
+}
+
 .about__quote {
    position: relative;
    font-size: 44px;
