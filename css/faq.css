@@ -1,9 +1,8 @@
 .faq {
-   margin-bottom: 60px;
+   padding-bottom: 100px;
 }
 
 .faq__item {
-   width: 100%;
    position: relative;
    list-style-type: none;
    background-color: #fff;

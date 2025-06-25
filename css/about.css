@@ -1,5 +1,5 @@
 .about {
-   margin-bottom: 60px;
+   margin-bottom: 100px;
 }
 
 .about__wrapper {
@@ -9,6 +9,16 @@
 
 .about__image {
    margin-right: 80px;
+}
+
+.about__text {
+   padding: 0;
+   margin: 0;
+   margin-bottom: 20px;
+}
+
+.about__text:last-child {
+   margin-bottom: 0;
 }
 
 .about__quote {

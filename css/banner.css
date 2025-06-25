@@ -1,7 +1,7 @@
 .banner {
    height: 823px;
-   background: url("../assets/images/bg/banner.png") right 130px bottom / contain no-repeat;
-   margin-bottom: 60px;
+   background: url("../assets/images/bg/banner.png") right 100px bottom 100px / 675px 762px no-repeat;
+   padding-bottom: 100px;
 }
 
 .banner__title {
