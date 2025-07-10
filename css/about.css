@@ -1,5 +1,5 @@
 .about {
-   padding-bottom: 100px;
+   padding: 50px 0;
 }
 
 .about__wrapper {
@@ -41,8 +41,8 @@
 
 .about__quote::after {
    position: absolute;
-   top: 48px;
-   right: 661px;
+   top: 147px;
+   right: 41px;
    content: "”";
    font-size: 44px;
    font-weight: 900;

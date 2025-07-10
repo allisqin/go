@@ -18,7 +18,13 @@ ul, ol {
 
 a {
    text-decoration: none;
+   color: inherit;
 } 
+
+h1, h2, p, button {
+   margin: 0;
+   padding: 0;
+}
 
 body {
    background-color: #1B1A1B;
@@ -41,4 +47,12 @@ body {
    text-align: center;
    margin-bottom: 40px;
 }
+
+fieldset {
+   border: none;
+}
+
+/* input[type="text"] {
+   max-width: 100%;
+} */
 

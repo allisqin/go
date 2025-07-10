@@ -1,3 +1,236 @@
 .boocking {
-   padding-bottom: 100px;
+   padding: 50px 0;
+   background-color: #440F51;
 }
+
+.container {
+   padding: 0;
+}
+
+.select-halls {
+   display: flex;
+   justify-content: space-around;
+   gap: 60px;
+   padding: 0;
+   border: none;
+}
+
+.select-hall-block {
+   display: flex;
+}
+
+.select-hall-block input[type=radio] {
+   display: none;
+}
+
+.select-hall-block label {
+   display: inline-block;
+   cursor: pointer;
+   padding: 8px 15px;
+   width: 220px;
+   background-color: #fff;
+   color: #000;
+   border-radius: 8px;
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+}
+
+.select-hall-block input[type=radio]:checked + label {
+   color: #fff;
+   background-color: #0000ff;
+}
+
+/* .select-hall {
+   flex-basis: 250px;
+   /* background-color: #fff; */
+   /* padding: 7px 15px 8px 15px;
+   color: #000;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 40px;
+   text-align: center;
+   text-transform: uppercase;
+} */
+/* 
+.select-hall-input {
+   /* display: block; */
+   /* width: 250px;
+   height: 55px;
+   border-radius: 8px;
+   appearance: none;
+   background-color: #fff;
+}  */
+
+.select-hall-input:checked {
+   background-color: #0000ff;
+}
+
+.select-additionals {
+   width: 1080px;
+   margin-inline: auto;
+   display: flex;
+   gap: 190px;
+}
+
+.select-additionals__title, .select-halls__title {
+   font-weight: 700;
+   font-size: 24px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.additional {
+   display: flex;
+   flex-direction: column;
+}
+
+.addititonal__title {
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: 23px;
+}
+
+label {
+   display: flex;
+   column-gap: 12px;
+   align-items: center;
+   cursor: pointer;
+   font-weight: 400;
+   font-size: 22px;
+   margin-bottom: 20px;
+}
+
+.radio-input {
+   appearance: none;
+   width: 27px;
+   height: 27px;
+   border: none;
+   border-radius: 50%;
+   background-color: #fff;
+   cursor: pointer;
+}
+
+.radio-input:checked {
+   background-image: url("../assets/images/icons/circle.png");
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.checkbox-input {
+   appearance: none;
+   width: 25px;
+   height: 25px;
+   border: none;
+   background-color: #fff;
+   cursor: pointer;
+}
+
+.checkbox-input:checked {
+   background-image: url("../assets/images/icons/check.png");
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+.select-date {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 50px;
+}
+
+.select-date__title {
+   margin-bottom: 38px;
+   font-weight: 700;
+   font-size: 24px;
+   text-align: center;
+}
+
+.select-options {
+   display: flex;
+   flex-direction: column;
+   max-width: 300px;
+}
+
+.date-time {
+   display: flex;
+   column-gap: 32px;
+   margin-bottom: 36px;
+}
+
+.text-input {
+   padding: 12px 20px;
+   background-image: url("../assets/images/icons/arrow.svg");
+   background-position: center right 18px;
+   background-repeat: no-repeat;
+}
+
+.text-input-width50 {
+   width: 50%;
+} 
+
+input[type=text]::placeholder {
+	font-size: 18px;
+	color: #211E1E;
+}
+input[type=text]::-webkit-input-placeholder {
+	font-size: 18px;
+	color: #211E1E;
+}
+input[type=text]::-moz-placeholder {
+	font-size: 18px;
+	color: #211E1E;
+}
+input[type=text]:-moz-placeholder {
+	font-size: 18px;
+	color: #211E1E;
+}
+input[type=text]:-ms-input-placeholder {
+	font-size: 18px;
+	color: #211E1E;
+}
+
+.label {
+   font-size: 14px;
+   margin-bottom: 0;
+   margin-top: -19px;
+}
+
+.label:last-child {
+   margin-top: 19px;
+}
+
+/* .select-options_names {
+   align-items: space-between;
+} */
+
+.text-input_names, .text-input_contacts {
+   padding: 12px 20px;
+}
+
+.text-input_names:nth-child(2n), .text-input_contacts:nth-child(2n) {
+   margin-bottom: 43px;
+}
+
+.button-block {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+}
+
+
+.btn {
+   width: 300px;
+   border-radius: 10px;
+   padding: 16px 50px;
+   background-color: #fff;
+   text-transform: uppercase;
+   align-self: flex-end;
+   color: #6C0287;
+   font-weight: 700;
+   font-size: 22px;
+   cursor: pointer;
+}
+/* .btn {
+   align-self: flex-end;
+} */

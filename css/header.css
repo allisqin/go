@@ -1,0 +1,32 @@
+.header {
+   padding: 28px 0;
+}
+
+.header__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__btn {
+   padding: 12px 32px;
+   background-color: transparent;
+   border: 3px solid #CD06FF;
+   border-radius: 10px;
+   text-transform: uppercase;
+   color: #fff;
+   cursor: pointer;
+}
+
+.navigation__list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   column-gap: 40px;
+}
+
+.navigation__link {
+   font-size: 22px;
+   text-transform: uppercase;
+}
+
