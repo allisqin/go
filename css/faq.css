@@ -22,30 +22,34 @@
    color: #fff;
 }
 
-.faq__item::after {
-   content: "";
+.faq__item {
+   /* content: "";
    position: absolute;
    right: 72px;
    top: 50%;
    transform: translateY(-50%);
    display: inline-block;
    width: 47px;
-   height: 47px;
+   height: 47px; */
    background-image: url(../assets/images/open-purple.svg);
-   background-size: contain;
+   background-repeat: no-repeat;
+   background-size: 46px 46px;
+   background-position: right 70px center;
    cursor: pointer;
 }
 
-.faq__item:nth-child(even)::after {
-   content: "";
+.faq__item:nth-child(even) {
+   /* content: "";
    position: absolute;
    right: 72px;
    top: 50%;
    transform: translateY(-50%);
    display: inline-block;
    width: 47px;
-   height: 47px;
+   height: 47px; */
    background-image: url(../assets/images/open.svg);
-   background-size: contain;
+   background-repeat: no-repeat;
+   background-size: 46px 46px;
+   background-position: right 70px center;
    cursor: pointer;
 }

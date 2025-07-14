@@ -2,7 +2,12 @@
    position: relative;
    height: 773px;
    padding: 50px 0;
-   background: url("../assets/images/bg/banner.png") right 655px bottom 100px / 675px 762px no-repeat;
+   
+}
+
+.banner__container {
+   height: 100%;
+   background: url("../assets/images/bg/banner.png") right 20px bottom -82px/ 675px 762px no-repeat;
 }
 
 .banner__title {
@@ -73,7 +78,7 @@
    box-shadow: 5px -5px 10px 10px #6C0287;
 }
 
-.banner__btn-down {
+/* .banner__btn-down {
    display: block;
    position: absolute;
    left: 50%;
@@ -82,4 +87,12 @@
    width: 97px;
    height: 97px;
    background: url("../assets/images/icons/down.svg") center center/cover no-repeat;
+} */
+
+.banner__btn-down {
+   position: absolute;
+   display: block;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 120px;
 }

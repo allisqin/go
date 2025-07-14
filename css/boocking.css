@@ -212,14 +212,15 @@ input[type=text]:-ms-input-placeholder {
    margin-bottom: 43px;
 }
 
-.button-block {
+/* .button-block {
    display: flex;
    flex-direction: row-reverse;
    justify-content: space-between;
-}
+} */
 
 
-.btn {
+.boocking__form_btn {
+   float: right;
    width: 300px;
    border-radius: 10px;
    padding: 16px 50px;

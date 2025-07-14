@@ -42,7 +42,7 @@
       </div>
     </header>
     <section class="banner">
-      <div class="container">
+      <div class="container banner__container">
         <h1 class="banner__title">GAME OVER</h1>
         <p class="banner__subtitle">Новый формат игр и отдыха</p>
         <div class="banner__info">
@@ -56,7 +56,33 @@
           </div>
         </div>
         <a href="#booking" class="banner__btn">забронировать</a>
-        <a href="#" class="banner__btn-down"></a>
+        <a href="#" class="banner__btn-down">
+          <svg
+            width="97"
+            height="97"
+            viewBox="0 0 97 97"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="48.5" cy="48.5" r="48" stroke="white" />
+            <rect
+              x="34.4255"
+              y="43.9161"
+              width="1.82001"
+              height="20.0201"
+              transform="rotate(-44.9975 34.4255 43.9161)"
+              fill="white"
+            />
+            <rect
+              x="48.5807"
+              y="58.0737"
+              width="1.82001"
+              height="20.0201"
+              transform="rotate(-134.997 48.5807 58.0737)"
+              fill="white"
+            />
+          </svg>
+        </a>
       </div>
     </section>
     <section class="have">
@@ -307,9 +333,14 @@
               <input type="email" class="text-input_contacts" name="email" />
             </div>
           </fieldset>
-          <div class="button-block">
-            <button class="btn" type="submit">Забронировать</button>
-          </div>
+          <button
+            class="boocking__form_btn"
+            tabindex="0"
+            type="submit"
+            onclick="this.focus()"
+          >
+            Забронировать
+          </button>
         </form>
       </div>
     </section>
@@ -438,9 +469,9 @@
               </a>
               <a class="social__link" href="https://web.telegram.org/k/">
                 <svg
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 50 50"
                   fill="white"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -505,5 +536,12 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener("click", (event) => {
+        if (event.target.matches("button")) {
+          event.target.focus();
+        }
+      });
+    </script>
   </body>
 </html>

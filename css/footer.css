@@ -57,16 +57,22 @@
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.social__link {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+
+}
 
 .social__link:not(:last-child) {
    margin-right: 26px;
 }
-
+/* 
 .social__link:hover {
    svg {
       fill: #CD06FF;
    }
-}
+} */
 
 .footer__copyright {
    display: flex;

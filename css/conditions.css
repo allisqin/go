@@ -1,0 +1,131 @@
+.header__btn:hover, .header__btn:focus {
+   background-color: #6C0287;
+   border: none;
+}
+
+.header__btn:active {
+   background-color: #640AA3;
+   border: 1px solid #000;
+}
+
+.banner__btn:hover, .banner__btn:focus {
+   background-color: #840AA3;
+   border: none;
+   outline: none;
+   box-shadow: none;
+}
+
+.banner__btn:active {
+   background-color: #640AA3;
+   box-shadow: none;
+}
+
+.banner__btn-down:hover {
+   svg {
+      circle {
+         fill: #fff;
+      }
+      rect {
+         fill: #6C0287;
+      }
+   }
+}
+
+.banner__btn-down:active {
+   svg {
+      circle {
+         fill: #CD06FF;
+         stroke: none;
+      }
+      rect {
+         fill: #fff;
+      }
+      outline: none;
+   }
+}
+
+.banner__btn-down:focus {
+   outline: none;
+   border: 1px solid #CD06FF;
+}
+
+.select-hall-block input[type=radio] + label:hover {
+   background-color: #EADEED;
+   border: 3px solid #640AA3;
+}
+.select-hall-block input[type=radio] + label:active {
+   background-color: #6C0287;
+   border: 3px solid #FFFFFF;
+   color: #fff;
+}
+
+.select-hall-block input[type=radio] + label:focus {
+   background-color: #fff;
+   border: 3px solid #640AA3;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
+   border: 2px solid #CD06FF;
+   outline: none;
+}
+
+.radio-input:focus, .checkbox-input:focus {
+   border: 1px solid #CD06FF;
+   outline: none;
+}
+
+.boocking__form_btn:hover {
+   background-color: #EADEED;
+   border: 3px solid #6C0287;
+   color: #6C0287;
+}
+
+.boocking__form_btn:active {
+   background-color: #EADEED;
+   border: none;
+   outline: none;
+   color: #6C0287;
+}
+
+.boocking__form_btn:focus-visible {
+   outline: none;
+   border: 3px solid #6C0287 !important;
+}
+
+.faq__item:hover {
+   background-image: url("../assets/images/icons/open-hover-purple.svg");
+}
+
+.faq__item:nth-child(2n):hover {
+   background-image: url("../assets/images/icons/open-hover-white.svg");
+}
+
+.faq__item:active {
+   background-image: url("../assets/images/icons/close-purple.svg");
+}
+
+.faq__item:nth-child(2n):active {
+   background-image: url("../assets/images/icons/open.svg");
+}
+
+.social__link:hover {
+   svg {
+      fill: #EADEED;
+   }
+}
+
+.social__link:active {
+   svg {
+      fill: #CD06FF;
+   }
+}
+
+.social__link:focus {
+   /* outline-color: #CD06FF; */
+   outline: none;
+   border: 1px solid #CD06FF;
+   svg {
+      fill: #EADEED;
+   }
+}
+
