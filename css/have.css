@@ -9,6 +9,7 @@
 
 .have__list {
    display: flex;
+   overflow: hidden;
    column-gap: 20px;
    row-gap: 40px;
    flex-wrap: wrap;
@@ -24,6 +25,7 @@
    font-weight: 700;
    font-size: 20px;
    line-height: 28px;
+   transition: all 0.5s ease-in;
 }
 
 .have__item_VR {

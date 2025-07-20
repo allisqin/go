@@ -36,6 +36,7 @@
    background-size: 46px 46px;
    background-position: right 70px center;
    cursor: pointer;
+   transition: all 1.5s cubic-bezier(.97,.19,1,-0.4);
 }
 
 .faq__item:nth-child(even) {
@@ -52,4 +53,5 @@
    background-size: 46px 46px;
    background-position: right 70px center;
    cursor: pointer;
+   transition: all 1.5s cubic-bezier(.97,.19,1,-0.4);
 }

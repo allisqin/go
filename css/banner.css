@@ -76,6 +76,8 @@
    font-size: 26px;
    text-align: center;
    box-shadow: 5px -5px 10px 10px #6C0287;
+   transition: box-shadow 3s cubic-bezier(.97,.19,.83,.67),
+               background-color 1s cubic-bezier(.97,.19,.07,.73);
 }
 
 /* .banner__btn-down {
@@ -95,4 +97,13 @@
    left: 50%;
    transform: translateX(-50%);
    bottom: 120px;
+   transition: all 10s ease-in-out;
+}
+.banner__btn-down svg {
+   circle {
+      transition: all 2s ease-in-out;
+   }
+   rect {
+      transition: all 1s ease-in-out;
+   }
 }

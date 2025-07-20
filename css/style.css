@@ -21,7 +21,7 @@ a {
    color: inherit;
 } 
 
-h1, h2, p, button {
+h1, h2, p, button, button {
    margin: 0;
    padding: 0;
 }

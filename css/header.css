@@ -16,6 +16,9 @@
    text-transform: uppercase;
    color: #fff;
    cursor: pointer;
+   transition: 
+      border 1s cubic-bezier(0,1.09,.83,.67), 
+      background-color 2s ease-out;
 }
 
 .navigation__list {

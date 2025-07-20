@@ -49,6 +49,10 @@
    border: 1px solid #CD06FF;
 }
 
+.have__item:hover {
+  transform: scale(110%);
+}
+
 .select-hall-block input[type=radio] + label:hover {
    background-color: #EADEED;
    border: 3px solid #640AA3;

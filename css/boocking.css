@@ -1,5 +1,5 @@
 .boocking {
-   padding: 50px 0;
+   padding: 100px 0;
    background-color: #440F51;
 }
 
@@ -34,11 +34,13 @@
    font-weight: 700;
    font-size: 30px;
    text-align: center;
+   transition: all 1.5s ease-out;
 }
 
 .select-hall-block input[type=radio]:checked + label {
    color: #fff;
-   background-color: #0000ff;
+   background-color: #6C0287;
+   transition: all 1.5s ease-in;
 }
 
 /* .select-hall {
@@ -109,10 +111,11 @@ label {
    border-radius: 50%;
    background-color: #fff;
    cursor: pointer;
+   transition: all 1.5s linear;
 }
 
 .radio-input:checked {
-   background-image: url("../assets/images/icons/circle.png");
+   background-image: url("../assets/images/icons/circle1.png");
    background-position: center;
    background-repeat: no-repeat;
 }
@@ -124,12 +127,14 @@ label {
    border: none;
    background-color: #fff;
    cursor: pointer;
+   transition: all 1.5s ease-in-out;
 }
 
 .checkbox-input:checked {
    background-image: url("../assets/images/icons/check.png");
    background-position: center;
    background-repeat: no-repeat;
+   transition: all 1.5s ease-in-out;
 }
 
 
@@ -163,6 +168,7 @@ label {
    background-image: url("../assets/images/icons/arrow.svg");
    background-position: center right 18px;
    background-repeat: no-repeat;
+   transition: all 2s linear;
 }
 
 .text-input-width50 {
@@ -209,7 +215,7 @@ input[type=text]:-ms-input-placeholder {
 }
 
 .text-input_names:nth-child(2n), .text-input_contacts:nth-child(2n) {
-   margin-bottom: 43px;
+   margin-bottom: 40px;
 }
 
 /* .button-block {
@@ -231,6 +237,7 @@ input[type=text]:-ms-input-placeholder {
    font-weight: 700;
    font-size: 22px;
    cursor: pointer;
+   transition: all 2s linear;
 }
 /* .btn {
    align-self: flex-end;
