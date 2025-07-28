@@ -73,12 +73,6 @@
 .social__link:not(:last-child) {
    margin-right: 26px;
 }
-/* 
-.social__link:hover {
-   svg {
-      fill: #CD06FF;
-   }
-} */
 
 .footer__copyright {
    display: flex;

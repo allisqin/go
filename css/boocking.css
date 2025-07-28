@@ -1,6 +1,6 @@
 .boocking {
    padding: 100px 0;
-   background-color: #440F51;
+   background-color: var(--faq-bg);
 }
 
 .container {
@@ -65,7 +65,7 @@
 }  */
 
 .select-hall-input:checked {
-   background-color: #0000ff;
+   background-color: var(--halls-checked);
 }
 
 .select-additionals {
@@ -125,7 +125,7 @@ label {
    width: 25px;
    height: 25px;
    border: none;
-   background-color: #fff;
+   background-color: var(--color);
    cursor: pointer;
    transition: all 1.5s ease-in-out;
 }
@@ -177,23 +177,23 @@ label {
 
 input[type=text]::placeholder {
 	font-size: 18px;
-	color: #211E1E;
+	color: var(--placeholder);
 }
 input[type=text]::-webkit-input-placeholder {
 	font-size: 18px;
-	color: #211E1E;
+	color: var(--placeholder);
 }
 input[type=text]::-moz-placeholder {
 	font-size: 18px;
-	color: #211E1E;
+	color: var(--placeholder);
 }
 input[type=text]:-moz-placeholder {
 	font-size: 18px;
-	color: #211E1E;
+	color: var(--placeholder);
 }
 input[type=text]:-ms-input-placeholder {
 	font-size: 18px;
-	color: #211E1E;
+	color: var(--placeholder);
 }
 
 .label {

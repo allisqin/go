@@ -9,7 +9,7 @@
 
 .have__list {
    display: flex;
-   overflow: hidden;
+   overflow: visible;
    column-gap: 20px;
    row-gap: 40px;
    flex-wrap: wrap;
@@ -34,6 +34,7 @@
 
 .have__item_audio {
    background: url("../assets/images/have/audio.jpg") center center/cover no-repeat;
+   transform: translateY(70px);
 }
 
 .have__item_karaoke {
@@ -46,6 +47,8 @@
 
 .have__item_cinema {
    background: url("../assets/images/have/netflix.jpg") center center/cover no-repeat;
+   transform: translateY(70px);
+
 }
 
 .have__item_sony {

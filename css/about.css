@@ -36,7 +36,7 @@
    content: "“";
    font-size: 44px;
    font-weight: 900;
-   color: #6c0287;
+   color: var(--btn-color);
 }
 
 .about__quote::after {
@@ -46,7 +46,7 @@
    content: "”";
    font-size: 44px;
    font-weight: 900;
-   color: #6c0287;
+   color: var(--btn-color);
 }
 
 .align-right {

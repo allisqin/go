@@ -5,7 +5,7 @@
 .faq__item {
    position: relative;
    list-style-type: none;
-   background-color: #fff;
+   background-color: var(--color);
    color: #1C1A1A;
    font-weight: 700;
    font-size: 24px;
@@ -18,7 +18,7 @@
 }
 
 .faq__item:nth-child(even) {
-   background-color:#440F51;
+   background-color: var(--faq-bg);
    color: #fff;
 }
 

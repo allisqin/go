@@ -11,7 +11,7 @@
 .header__btn {
    padding: 12px 32px;
    background-color: transparent;
-   border: 3px solid #CD06FF;
+   border: 3px solid var(--main-color);
    border-radius: 10px;
    text-transform: uppercase;
    color: #fff;

@@ -22,11 +22,11 @@
    font-size: 70px;
    font-weight: 700;
    line-height: 80px;
-   color: #fff;
+   color: var(--color);
 }
 
 .halls__link:hover {
-   color: #8c8787;
+   color: var(--halls-hover);
 }
 
 #vibes80 {

@@ -1,3 +1,4 @@
+
 html {
    box-sizing: border-box;
 }
@@ -27,8 +28,8 @@ h1, h2, p, button, button {
 }
 
 body {
-   background-color: #1B1A1B;
-   color: #FFFFFF;
+   background-color: var(--bgc);
+   color: var(--color);
    font-family: Arial, Helvetica, sans-serif;
 }
 

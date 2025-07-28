@@ -1,3 +1,5 @@
+
+
 .navigation__list {
    display: flex;
    justify-content: space-between;
@@ -8,6 +10,6 @@
 }
 
 .navigation__link:hover {
-   color: #898888;
+   color: var(--navigation-hover);
    text-decoration: underline;
 }
