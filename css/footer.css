@@ -85,3 +85,135 @@
    max-width: 184px;
    text-align: right;
 }
+
+
+@media (max-width: 1024px) {
+   .footer__content {
+      margin-bottom: 92px;
+   }
+
+   .footer__contacts {
+      margin-right: 58px;
+   }
+
+   .social__link {
+      width: 40px;
+      height: 40px;
+   }
+
+   .footer__map img{
+      width: 517px;
+      height: 274px;
+   }
+}
+
+@media (max-width: 768px) {
+   .footer {
+      padding: 18px 0;
+   }
+
+   .footer__content {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 75px;
+   }
+
+   .footer__map img {
+      width: 688px;
+      height: 337px;
+   }
+}
+
+@media (max-width: 320px) {
+   .footer {
+      padding: 0;
+   }
+
+   .footer__content {
+      margin-bottom: 63px;
+   }
+
+   .footer__contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+
+   .footer__contacts-list {
+      padding-left: 57px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+   }
+
+   .footer__item {
+      display: flex;
+      justify-content: center;
+      font-size: 12px;
+      column-gap: 5px;
+      margin-bottom: 10px;
+      text-align: center;
+   }
+
+   /* .footer__item:last-child {
+      margin-bottom: 0;
+   } */
+
+   .footer__item::before {
+      width: 20px;
+      height: 20px;
+   }
+
+   .social {
+      width: 180px;
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
+      margin: 0 auto;
+   }
+
+   .social__link {
+      width: 28px;
+      height: 28px;
+   }
+
+   /* .social__link:not(:last-child) {
+      margin-right: 20px;
+   } */
+
+   .footer__map img {
+      display: none;
+   }
+
+   .footer__map {
+      width: 100%;
+      height: 194px;
+      /* background-color: red; */
+      background-image: url("../assets/images/map320.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 63px;
+   }
+
+   .footer__copyright {
+      width: 135px;
+      margin: 0 auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 12px;
+   }
+
+   .footer__copyright-copy {
+      margin-bottom: 19px;
+   }
+
+   .footer__copyright-author {
+      text-align: center;
+   }
+}

@@ -1,0 +1,10 @@
+.promo-ww {
+   /* box-sizing:border-box;
+   height: 750px;
+   padding: 335px 360px; */
+   background: url("../assets/images/bg/halls/Wildwest-bg.png") center center/cover no-repeat;
+}
+
+.aboutpage-ww {
+   background: url("../assets/images/about/wildwest/img_about.png") left center no-repeat;
+}

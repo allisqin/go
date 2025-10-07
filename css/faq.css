@@ -55,3 +55,42 @@
    cursor: pointer;
    transition: all 1.5s cubic-bezier(.97,.19,1,-0.4);
 }
+
+@media (max-width: 1024px) {
+   .faq {
+      padding: 23px 0;
+   }
+
+   .faq__item {
+      font-size: 20px;
+      background-position: right 20px center;
+   }
+
+   .faq__item:nth-child(even) {
+      background-position: right 20px center;
+      background-color: #fff;
+      color: #1C1A1A;
+      background-image: url(../assets/images/open-purple.svg);
+   }
+}
+
+
+@media (max-width: 320px) {
+   .faq__item {
+      display: flex;
+      align-items: center;
+      height: 46px;
+      font-size: 12px;
+      padding: 0 40px 0 10px;
+      margin-bottom: 10px;
+      background-size: 30px 30px;
+      text-wrap: wrap;
+   }
+
+   .faq__item:nth-child(even) {
+      display: flex;
+      align-items: center;
+      height: 46px;
+      background-size: 30px 30px;
+   }
+}

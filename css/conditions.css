@@ -106,6 +106,7 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
 
 .faq__item:active {
    background-image: url("../assets/images/icons/close-purple.svg");
+   background-size: 46px 46px;
 }
 
 .faq__item:nth-child(2n):active {
@@ -130,6 +131,12 @@ input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
    border: 1px solid var(--main-color);
    svg {
       fill: #EADEED;
+   }
+}
+
+@media (max-width: 1024px) {
+   .faq__item:active, .faq__item:nth-child(2n):active, .faq__item:hover, .faq__item:nth-child(2n):hover{
+      background-position: right 20px center;
    }
 }
 

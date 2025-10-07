@@ -1,0 +1,138 @@
+.header {
+      margin-bottom: 66px;
+   }
+
+.back {
+   margin-bottom: 20px;
+}
+
+.back__btn {
+   display: inline-block;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.back__btn:before {
+   content: "";
+   width: 30px;
+   height: 16px;
+   margin-right: 10px;
+   display: inline-block;
+   vertical-align: middle;
+   background: url("../assets/images/icons/Arrow-back.svg") center center/ cover no-repeat;
+}
+
+.promopage {
+   
+   background: url("../assets/images/bg/halls/80vibes.png") center center/ cover no-repeat;
+}
+
+
+.aboutpage-80s {
+   background: url("../assets/images/about/80s/img__about.png") left center no-repeat;
+}
+/* .promo__wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+} */
+
+/* .promo__title {
+   font-size: 90px;
+   font-weight: 700;
+   line-height: 80px;
+   text-align: center;
+   text-transform: uppercase;
+} */
+
+.halls__list {
+   flex-wrap: nowrap;
+   column-gap: 20px;
+}
+
+.halls__item {
+   width: 33%;
+}
+
+.halls__link {
+   font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+   .header {
+      margin-bottom: 50px;
+   }
+
+   .promo {
+      height: 534px;
+      padding: 227px 152px;
+   }
+
+   /* .description {
+      padding: 70px 0;
+   }
+
+   .description__text {
+      width: 800px;
+      font-size: 20px;
+   } */
+}
+
+@media (max-width: 768px) {
+
+   .header {
+      margin-bottom: 40px;
+   }
+
+   .back__btn {
+      font-size: 16px;
+   }
+
+   .promo {
+      height: 402px;
+      padding: 165px 125px;
+   }
+
+   .promo__title {
+      font-size: 60px;
+      line-height: 120%;
+   }
+
+   .halls__link {
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 320px) {
+   .header {
+      margin-bottom: 20px;
+   }
+
+   .back__btn {
+      font-size: 12px;
+      margin-bottom: 15px;
+   }
+
+   .promo {
+      height: 168px;
+      padding: 66px 45px;
+   }
+
+   .promo__title {
+      font-size: 30px;
+   }
+
+   .halls__list {
+      flex-wrap: wrap;
+   }
+
+   .halls__item {
+      width: 100%;
+   }
+
+   .halls__link {
+      font-size: 20px;
+   }
+}

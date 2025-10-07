@@ -54,3 +54,80 @@
 .have__item_sony {
    background: url("../assets/images/have/sony.jpg") center center/cover no-repeat;
 }
+
+@media (max-width: 1024px) {
+   .have__title {
+      width: 530px;
+   }
+
+   .have__list {
+      display: grid;
+      grid-template-columns: repeat(3, 287px);
+      column-gap: 20px;
+      row-gap: 30px;
+   }
+
+   .have__item {
+      box-sizing: border-box;
+      width: 287px;
+      height: 172px;
+   }
+}
+
+
+@media (max-width: 768px) {
+   .have {
+      padding: 20px 0;
+   }
+
+   .have__title {
+      margin-bottom: 30px;
+   }
+
+   .have__list {
+      grid-template-columns: repeat(2, 334px);
+      column-gap: 20px;
+      row-gap: 20px;
+   }
+
+   .have__item {
+      width: 344px;
+      height: 200px;
+   }
+
+   .have__item_audio, .have__item_cinema {
+      transform: none;
+   }
+}
+
+
+@media (max-width: 320px) {
+   .have {
+      padding: 10px 0;
+   }
+
+   .have__title {
+      width: auto;
+      line-height: 18px;
+      margin-bottom: 15px;
+   }
+
+   .have__list {
+      grid-template-columns: repeat(2, 135px);
+      column-gap: 10px;
+      row-gap: 10px;
+   }
+
+   .have__item {
+      width: 135px;
+      height: 75px;
+      padding: 30px 10px;
+      align-items: unset;
+      font-size: 10px;
+      line-height: 14px;
+   }
+
+   .have__item_cinema {
+      padding-bottom: 0;
+   }
+}

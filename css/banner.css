@@ -2,7 +2,6 @@
    position: relative;
    height: 773px;
    padding: 50px 0;
-   
 }
 
 .banner__container {
@@ -82,11 +81,14 @@
 
 .banner__btn-down {
    position: absolute;
+   width: 97px;
+   height: 97px;
    display: block;
    left: 50%;
    transform: translateX(-50%);
    bottom: 120px;
    transition: all 10s ease-in-out;
+   background: url("../assets/images/icons/down.svg") center center/ cover no-repeat;
 }
 .banner__btn-down svg {
    circle {
@@ -94,5 +96,127 @@
    }
    rect {
       transition: all 1s ease-in-out;
+   }
+}
+
+@media (max-width: 1024px) {
+   .banner {
+      height: 583px;
+      padding: 23px 0;
+   }
+
+   .banner__title {
+      font-size: 120px;
+      margin-bottom: 20px;
+   }
+
+   .banner__subtitle {
+      font-size: 22px;
+   }
+
+   .banner__info {
+      margin-bottom: 80px;
+   }
+
+   .banner__info-title {
+      font-size: 80px;
+   }
+
+   .banner__info-text {
+      font-size: 26px;
+   }
+
+   .banner__btn {
+      width: 296px;
+      padding: 17px 48px;
+   }
+
+   .banner__btn-down {
+      width: 67px;
+      height: 67px;
+      bottom: 46px;
+   }
+}
+
+@media (max-width: 768px) {
+   .banner {
+      height: 537px;
+   }
+
+   .banner__container {
+      background-size: 409px 479px;
+   }
+
+   .banner__title {
+      font-size: 86px;
+      margin-bottom: 20px;
+   }
+
+   .banner__subtitle { 
+      font-size: 18px;
+   } 
+
+   .banner__info-title {
+      font-size: 50px;
+   }
+
+   .banner__info-text {
+      font-size: 16px;
+   }
+
+   .banner__btn {
+      width: 214px;
+      font-size: 16px;
+   }
+
+   .banner__btn-down {
+      display: none;
+   }
+}
+
+@media (max-width: 329px) {
+   .banner {
+      height: 204px;
+   }
+
+   .banner__container {
+      background-size: 161px 179px;
+      background-position: right -2px bottom 0px;
+   }
+
+   .banner__title {
+      font-size: 35px;
+      margin-bottom: -10px;
+      letter-spacing: -2px;
+   }
+
+   .banner__subtitle {
+      font-size: 10px;
+      padding-left: 19px;
+      margin-bottom: 10px;
+   }
+
+   .banner__info {
+      margin-bottom: 29px;
+   }
+
+   .banner__info-block {
+      max-width: 65px;
+      margin-right: 20px;
+   }
+
+   .banner__info-title {
+      font-size: 26px;
+   }
+
+   .banner__info-text {
+      font-size: 10px;
+   }
+
+   .banner__btn {
+      width: 117px;
+      padding: 8px 13px 7px 13px;
+      /* height: 27px; */
+      font-size: 10px;
    }
 }

@@ -1,0 +1,18 @@
+.promo-sw {
+   /* box-sizing: border-box;
+   height: 750px;
+   padding: 335px 360px; */
+   background: #010101 url("../assets/images/bg/halls/starwars-bg.png") center center no-repeat;
+   background-size: auto;
+}
+
+/* .promo-sw__title {
+   font-size: 90px;
+   line-height: 80px;
+   text-align: center;
+   text-transform: uppercase;
+} */
+
+.aboutpage-sw {
+   background: url("../assets/images/about/starwars/img_about.png") left center no-repeat;
+}

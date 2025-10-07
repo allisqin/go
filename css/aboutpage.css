@@ -1,0 +1,91 @@
+.aboutpage {
+   padding: 0 0 50px 0;
+}
+
+.aboutpage__wrapper {
+   display: flex;
+   height: 424px;
+   justify-content: end;
+   align-items: center;
+   background-size: 600px 424px;
+}
+
+.aboutpage__descr {
+   width: 500px;
+}
+
+.aboutpage__descr-text {
+   font-size: 20px;
+   line-height: 28px;
+}
+
+.aboutpage__descr-text:first-child {
+   margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+   .aboutpage {
+      padding: 0 0 35px 0;
+   }
+
+   .aboutpage__wrapper {
+      background-size: 421px 326px;
+   }
+
+   .aboutpage__descr {
+      width: 413px;
+   }
+
+   .aboutpage__descr-text {
+      font-size: 18px;
+   }
+}
+
+@media (max-width: 768px) {
+   .aboutpage {
+      padding: 0;
+   }
+
+   .aboutpage__title {
+      margin-bottom: 30px;
+   }
+
+   .aboutpage__wrapper {
+      height: 326px;
+      background-size: 329px 326px;
+   }
+
+   .aboutpage__descr {
+      width: 313px;
+   }
+
+   .aboutpage__descr-text {
+      font-size: 16px;
+   }
+}
+
+@media (max-width: 320px) {
+    .aboutpage {
+      box-sizing: border-box;
+   }
+
+   .aboutpage__title {
+      margin-bottom: 15px;
+   }
+
+   .aboutpage__wrapper {
+      height: 340px;
+      background-position: left top;
+      background-size: 280px 180px;
+      align-items: end;
+   }
+
+   .aboutpage__descr {
+      padding-top: 15px;
+      width: 100%;
+   }
+
+   .aboutpage__descr-text {
+      font-size: 12px;
+   }
+}

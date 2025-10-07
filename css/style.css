@@ -49,8 +49,54 @@ body {
    margin-bottom: 40px;
 }
 
+.main-title {
+   font-size: 90px;
+   line-height: 80px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+}
+
 fieldset {
    border: none;
+   padding: 0;
+}
+
+input {
+   box-sizing: border-box;
+}
+
+
+
+@media (max-width: 1024px) {
+   .container {
+      max-width: 904px;
+   }
+
+   .title {
+      font-size: 30px;
+   }
+}
+
+@media (max-width: 768px) {
+   .container {
+      max-width: 688px;
+   }
+
+   .title {
+      font-size: 24px;
+   }
+}
+
+@media (max-width: 320px) {
+   .container {
+      max-width: 280px;
+   }
+
+   .title {
+      font-size: 14px;
+      margin-bottom: 15px;
+   }
 }
 
 

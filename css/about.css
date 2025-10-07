@@ -1,19 +1,29 @@
 .about {
    padding: 50px 0;
+   
 }
 
 .about__wrapper {
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
+   background: url("../assets/images/bg/about-bg.png") left center no-repeat;
+   background-size: 600px 596px;
 }
 
-.about__image {
+/* .about__image {
+   width: 600px;
    margin-right: 80px;
+} */
+
+.about__descr {
+   width: 500px;
+   align-self: flex-end;
 }
 
 .about__text {
    padding: 0;
    margin: 0;
+   font-size: 20px;
    margin-bottom: 20px;
 }
 
@@ -59,4 +69,138 @@
    justify-content: end;
    gap: 30px;
    width: 279px;
+}
+
+
+@media (max-width: 1024px) {
+   .about__image {
+      width: 420px;
+      margin-right: 39px;
+   }
+
+   .about__wrapper {
+      background-position: left top;
+      background-size: 420px 417px;
+   }
+
+   .about__descr {
+      width: 444px;
+   }
+
+   .about__text {
+      font-size: 18px;
+   }
+
+   .about__quote {
+      font-size: 30px;
+   }
+
+   .about__quote::before, .about__quote::after {
+      font-size: 30px;
+   }
+
+   .about__quote::before {
+      left: -26px;
+   }
+
+   .about__quote::after {
+      right: 104px;
+   }
+}
+
+@media (max-width: 768px) {
+   .about__wrapper {
+      background-size: 382px 380px;
+   }
+
+   .about__descr {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      /* justify-content: center; */
+   }
+
+   .about__text {
+      width: 287px;
+      font-size: 16px;
+      line-height: 22px;
+   }
+
+   .about__text:first-child {
+      padding-top: 66px;
+   }
+
+   .about__text--mb {
+      margin-bottom: 90px;
+   }
+
+   .about__quote {
+      padding-right: 86px;
+      width: 535px;
+      font-size: 32px;
+   }
+
+   .about__quote::before, .about__quote::after {
+      font-size: 32px;
+   }
+
+   .about__quote::after {
+      right: 68px;
+      top: 48px;
+   }
+}
+
+@media (max-width: 320px) {
+   .about {
+      padding: 15px 0 0 0;
+   }
+
+   .about__wrapper {
+      background-position: center center;
+      background-size: 280px 280px;
+   }
+
+   .about__descr {
+      width: 100%;
+      align-items: center;
+   }
+
+   .about__text {
+      width: 100%;
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   .about__text:first-child {
+      padding-top: 0;
+   }
+
+   .about__text--mb {
+      margin-bottom: 324px;
+   }
+
+   .about__quote {
+      width: 100%;
+      padding: 0 27px;
+      font-size: 18px;
+      line-height: 26px;
+      padding-right: 0;
+   }
+
+   .about__quote::before, .about__quote::after {
+      font-size: 22px;
+   }
+
+   .about__quote::before {
+      left: 14px;
+   }
+
+   .about__quote::after {
+      right: 123px;
+   }
+
+   .about__quote-author {
+      align-items: center;
+      font-size: 12px;
+   }
 }

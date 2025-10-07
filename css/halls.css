@@ -23,6 +23,7 @@
    font-weight: 700;
    line-height: 80px;
    color: var(--color);
+   text-transform: uppercase;
 }
 
 .halls__link:hover {
@@ -43,4 +44,45 @@
 
 #neon {
    background: url("../assets/images/bg/halls/neon.jpg") center center / cover no-repeat;
+}
+
+@media (max-width: 1024px) {
+   .halls__item {
+      width: 48%;
+      height: 267px;
+   }
+
+   .halls__link {
+      font-size: 50px;
+   }
+}
+
+@media (max-width: 768px) {
+   .halls {
+      padding: 20px 0;
+   }
+
+   .halls__title {
+      margin-bottom: 35px;
+   }
+
+   .halls__list {
+      column-gap: 20px;
+      row-gap: 17px;
+   }
+
+   .halls__item {
+      /* width: 335px; */
+      height: 200px;
+   }
+}
+
+@media (max-width: 320px) {
+   .halls__title {
+      margin-bottom: 15px;
+   }
+
+   .halls__item {
+      width: 100%;
+   }
 }
